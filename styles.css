@@ -1,0 +1,157 @@
+body{
+  background-color: gray;
+  font-family: 'Questrial', sans-serif;
+  margin: auto;
+
+}
+
+html{
+  margin-bottom: 0;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  padding-top: .6%;
+  margin: auto 0;
+
+} 
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+  margin-right: 3.5vw;
+  margin-left: 3.5vw;
+
+}
+
+@media screen and (min-width: 1921px) {
+  nav a{
+    font-size: 1vw;
+  }
+}
+
+
+#wpost{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+#post{
+  text-align: center;
+  border-style: solid;
+  border-width: .09vw;
+  margin-right: 10vw;
+  height: 65vh;
+  margin-top: 3%;
+  margin-bottom: 0;
+  background-color: white; 
+  border-radius: 8px;
+  box-shadow: 10px 5px 15px grey;
+}
+
+#det{
+  margin-left: 8vw;
+  margin-top: 4%;
+  margin-right: 2vw;
+  float: left;
+  font-size: 90%;
+  width: 10%;
+  text-align: left;
+  padding-left: .5%;
+  color: gray;
+  
+}
+
+/*  also above used to be .7vw
+
+@media screen and (max-width: 1919px) {
+
+  #det{
+    font-size: 2vw;
+  }
+  
+}
+
+*/
+
+
+
+
+h1{
+  font-size: 270%;
+  margin-bottom: 2.5%;
+}
+
+#post img{
+  border-radius: 10px;
+}
+
+p{
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 95%;
+}
+
+
+#arw img{
+  margin-top: -5%;
+  width: 15%;
+  height: 15%;
+}
+
+#post a{
+  text-decoration: none;
+  color: black;
+}
+
+
+#pimg img{
+  width: 80%;
+}
+
+
+#const{
+  text-align: center;
+  margin-top: 2%;
+}
+
+/*for centering logo at top*/
+#logo{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/*for sizing of top logo*/
+#logo img{
+  width: 39%;
+  max-width: 435px;
+}
+
+
+hr{
+  height: 1px;
+  width: 80%;
+  border-color: black;
+  margin-top: 1%;
+}
+
+#allc{
+  height: auto;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: white;
+  margin-bottom: 4%;
+}
+
+#det a{
+  text-decoration: none;
+  color: gray;
+}
+
+
+

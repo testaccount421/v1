@@ -1,0 +1,35 @@
+#article{
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 24%;
+  margin-left: 24%;
+  margin-top: 3%;
+  background-color: white; 
+  border-radius: 8px;
+  height: 2700px
+}
+
+
+#article a{
+  text-decoration: none;
+  color: black;
+}
+
+#pimg img{
+  border-radius: 10px;
+  
+}
+
+p{
+  margin-bottom: 2%;
+}
+
+#article{
+  box-shadow: 10px 5px 15px grey;
+  margin-bottom: 3%;
+}
+
+#allc{
+  height: 320%;
+}
